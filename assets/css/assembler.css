@@ -1,7 +1,7 @@
 /* Here you can write your CSS code */
 
 body {
-  font-family: "Helvetica Neue","Helvetica",sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 .l-header {
@@ -32,7 +32,7 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  content: '';
+  content: "";
   height: 100%;
   left: 0;
   position: absolute;
@@ -41,7 +41,7 @@ body {
 }
 
 .hero-carousel__header {
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .indicator-icon-Carlos {
@@ -86,7 +86,7 @@ body {
 .button-apple {
   position: relative;
   text-align: center;
-  font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   min-width: 28px;
   padding-left: 16px;
   padding-right: 16px;
@@ -98,7 +98,7 @@ body {
 }
 
 .button-apple:hover {
-  background: #0077ED;
+  background: #0077ed;
   color: #ffffff;
 }
 
@@ -116,25 +116,66 @@ body {
 
 /* Phones */
 
+/* nav header of page phones change color*/
+.header-phones {
+  background-color: #0a0a0a;
+}
+
+/*Section below header*/
+.chapter-nav {
+  background: rgba(29, 29, 31, 0.6);
+}
 
 /* Enterprise */
-
 
 /* Footer */
 
 .footer-apple {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 /* CLASS COPIED FROM BROWSER, IF TROUBLE DELETE */
-.c-nav [role='menuitem']:active, .c-nav [role='menuitem']:focus, .c-nav [role='menuitem']:hover {
+
+/*C-nav Afects header and footer
+Inser class in nav of headers. */
+
+.c-nav-apple [role="menuitem"] {
+  text-transform: none;
+}
+
+.c-nav-main-apple [role="menuitem"] {
+  font-size: 14px;
+  line-height: 3.14286;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  color: #f5f5f7 !important;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0 10px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  -webkit-tap-highlight-color: transparent;
+  outline-offset: -7px;
+}
+
+.c-nav [role="menuitem"]:active,
+.c-nav [role="menuitem"]:focus,
+.c-nav [role="menuitem"]:hover {
   color: #929191;
 }
 
 .text-footer-apple {
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
 
 .text-footer-apple a {
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
