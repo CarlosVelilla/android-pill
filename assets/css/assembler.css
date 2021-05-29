@@ -115,6 +115,7 @@ body {
 /* nav header of page phones change color*/
 .header-phones {
   background-color: #0a0a0a;
+  max-height: 44px;
 }
 
 /*Section below header*/
@@ -130,10 +131,15 @@ body {
   background-color: #f2f2f2;
 }
 
-/* CLASS COPIED FROM BROWSER, IF TROUBLE DELETE */
-
 /*C-nav Afects header and footer
 Inser class in nav of headers. */
+
+/*c-nav-apple used in phones.html*/
+
+/* .c-nav-apple [role="navigation"] {
+  text-transform: none;
+  max-height: 44px;
+} */
 
 .c-nav-apple [role="menuitem"] {
   text-transform: none;
@@ -151,7 +157,6 @@ Inser class in nav of headers. */
   z-index: 1;
   display: inline-block;
   padding: 0 10px;
-  height: 44px;
   opacity: 0.8;
   background: no-repeat;
   text-decoration: none;
@@ -162,6 +167,46 @@ Inser class in nav of headers. */
   outline-offset: -7px;
 }
 
+.c-nav-main-apple [role="menubar"] {
+  /* margin: 21px 75px 21px 0; */
+  margin: 0 !important;
+}
+
+.c-nav-apple [role="menuitem"]:active,
+.c-nav-apple [role="menuitem"]:focus,
+.c-nav-apple [role="menuitem"]:hover {
+  opacity: 1;
+}
+.c-nav-apple [role="menuitem"]:target {
+  opacity: 0.4;
+}
+
+.c-nav--main .btn--search {
+  color: #f5f5f7;
+  position: absolute;
+  right: 40px;
+  top: 17px;
+  opacity: 0.8;
+}
+
+.c-nav--main .btn--search:hover {
+  color: #f5f5f7;
+  opacity: 1;
+}
+
+/* logo apple*/
+
+#ac-globalnav .ac-gn-link-apple {
+  background-size: 16px 44px;
+  background-repeat: no-repeat;
+  background-image: url(../../es_ES/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg);
+  background-position: center center;
+  width: 16px;
+}
+
+/*end of cnav apple*/
+
+/* CLASS COPIED FROM BROWSER, IF TROUBLE DELETE */
 .c-nav [role="menuitem"]:active,
 .c-nav [role="menuitem"]:focus,
 .c-nav [role="menuitem"]:hover {
