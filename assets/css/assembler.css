@@ -17,6 +17,10 @@ body {
   width: 3rem;
 }
 
+.c-nav--main .btn--search:hover {
+  color: #0088cc;
+}
+
 /* Index */
 
 .hero-carousel__title {
