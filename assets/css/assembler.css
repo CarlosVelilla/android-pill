@@ -244,12 +244,11 @@ body {
   width: 100%;
 }
 
-@media only screen and (min-width: 1000px);
-.enter-subnav {
-  height: 52px;
+@media only screen and (min-width: 1000px) {
+  .enter-subnav {
+    height: 52px;
+  }
 }
-
-
 
 .l-section__intro-dani {
   color: white;
@@ -261,17 +260,15 @@ body {
 }
 
 .enterprise .ls-section--os .cascade-text--wrap {
-
   color: white;
 }
 
-.text-normal-dani{
-
+.text-normal-dani {
   color: #a1a1a6;
   font-size: 48px;
-    line-height: 1.08349;
-    font-weight: 600;
-    letter-spacing: -.003em;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -0.003em;
 }
 
 .enter--home {
@@ -283,7 +280,6 @@ body {
 
 .slide__content {
   color: white;
-  
 }
 
 .c-nav--main- [role="menuitem"].has-divider {
