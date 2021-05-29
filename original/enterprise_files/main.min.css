@@ -9853,7 +9853,7 @@ html.no-scroll-ios {
   .l-header .c-nav--main {
     float: right;
   }
-  .l-header .c-nav--main [role="menubar"] {
+  .l-header .c-nav--main-dani [role="menubar"] {
     margin: 21px 75px 21px 0;
   }
 }

@@ -219,6 +219,71 @@ body {
 /*END OF PHONES------------------------------------------------------------------------------------------*/
 
 /* Enterprise */
+.l-header-dani {
+  background-color: rgba(0, 0, 0, 0.92);
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  margin-bottom: 0px;
+}
+
+.l-header .c-nav--main-dani [role="menubar"] {
+  margin: 0 -30px !important;
+  display: flex;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1000px);
+.enter-subnav {
+  height: 52px;
+}
+
+
+
+.l-section__intro-dani {
+  color: white;
+  font-size: 48px;
+  width: 80%;
+  max-height: 50%;
+  text-align: initial;
+  margin-left: 10%;
+}
+
+.enterprise .ls-section--os .cascade-text--wrap {
+
+  color: white;
+}
+
+.text-normal-dani{
+
+  color: #a1a1a6;
+  font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+.enter--home {
+  background-image: url(https://i.pinimg.com/originals/22/6e/79/226e793190fdb3cdf3204e8fa8246a14.jpg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-color: black;
+}
+
+.slide__content {
+  color: white;
+  
+}
+
+.c-nav--main- [role="menuitem"].has-divider {
+  border-right: 0;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.u-bg-gray-light-dani {
+  background-color: rgba(29, 29, 31, 0.72);
+}
 
 /* CLASS COPIED FROM BROWSER, IF TROUBLE DELETE */
 .c-nav [role="menuitem"]:active,
