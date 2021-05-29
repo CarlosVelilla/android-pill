@@ -184,6 +184,16 @@ body {
   color: #2997ff;
 }
 
+.icon--svg-search-apple {
+  color: currentColor;
+}
+
+.icon--svg-search-apple:active,
+.icon--svg-search-apple:focus,
+.icon--svg-search-apple:hover {
+  color: currentColor;
+}
+
 /*C-nav Afects header and footerI. */
 /*c-nav-apple used in phones.html*/
 
@@ -193,6 +203,10 @@ body {
 
 .c-nav-main-apple {
   width: 100%;
+}
+
+.c-nav--main-apple .btn--search:hover {
+  color: none;
 }
 
 .c-nav-main-apple [role="menuitem"] {
