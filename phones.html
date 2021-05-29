@@ -220,8 +220,9 @@
     <a class="u-is-hidden-visually" href="https://www.android.com/intl/es_es/#main">
       Ir al contenido
     </a>
-    <button aria-controls="navigation" aria-expanded="false" aria-label="Menú" class="c-toggle u-from-desktop-is-hidden"
-      data-c-toggle="" data-ca-category="mobile-sidenav" data-ca-open-action="show" data-ca-close-action="hide">
+    <button aria-controls="navigation" aria-expanded="false" aria-label="Menú"
+      class="c-toggle c-toggle-apple u-from-desktop-is-hidden" data-c-toggle="" data-ca-category="mobile-sidenav"
+      data-ca-open-action="show" data-ca-close-action="hide">
       <span class="icon icon--hamburger">
         <span class="icon__inner"></span>
       </span>
@@ -254,8 +255,6 @@
       data-c-toggle-close="navigation" data-close-on-current-target="" aria-hidden="false">
       <div class="c-nav__inner">
         <div class="c-nav__header u-from-desktop-is-hidden">
-
-
           <a class="logo-android" href="https://www.android.com/intl/es_es/">
             <span class="u-is-hidden-visually">Android</span>
             <svg id="android-logo-mobile"
@@ -467,20 +466,19 @@
                 </svg>
               </span>Empresa</a>
           </li>
+          <li>
+            <button aria-controls="search" aria-expanded="false" aria-label="Buscar"
+              class="btn btn--search u-upto-desktop-is-hidden" data-c-id="c-toggle-search" data-c-toggle=""
+              data-is-child-component="" type="button" data-g-event="search" data-g-action="expanded">
+              <svg aria-hidden="false" aria-label="Buscar" class="icon icon--svg icon--ui icon--search" height="24"
+                viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                </path>
+              </svg>
+            </button>
+          </li>
         </ul>
-        <button aria-controls="search" aria-expanded="false" aria-label="Buscar"
-          class="btn btn--search u-upto-desktop-is-hidden" data-c-id="c-toggle-search" data-c-toggle=""
-          data-is-child-component="" type="button" data-g-event="search" data-g-action="expanded">
-          <!--
---><svg aria-hidden="false" aria-label="Buscar" class="icon icon--svg icon--ui icon--search" height="24"
-            viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
-            </path>
-          </svg>
-        </button>
-
-
         <div class="c-language-selector u-from-desktop-is-hidden" data-c-language-selector="">
           <form class="c-select">
             <label class="u-is-hidden-visually" for="language-selector-header-index">Idiomas</label>
@@ -519,6 +517,7 @@
             </select>
           </form>
         </div>
+
       </div>
     </nav>
   </header>

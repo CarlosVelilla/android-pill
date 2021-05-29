@@ -114,7 +114,21 @@ body {
   color: white;
 }
 
-/* Phones */
+/*PHONES---------------------------------------------------------------------------------------------------*/
+
+/* FOOTER------------------------------------------- */
+
+.footer-apple {
+  background-color: #f2f2f2;
+}
+
+/* HEADER------------------------------------------- */
+
+.c-nav-main-apple [role="menuitem"].has-divider {
+  border-right: none;
+  margin: 0;
+  padding: 0;
+}
 
 /* nav header of page phones change color*/
 .header-phones {
@@ -123,30 +137,19 @@ body {
 }
 
 /*Section below header*/
-.chapter-nav {
+.chapter-nav-phones {
   background: rgba(29, 29, 31, 0.6);
 }
 
-/* Enterprise */
-
-/* Footer */
-
-.footer-apple {
-  background-color: #f2f2f2;
-}
-
-/*C-nav Afects header and footer
-Inser class in nav of headers. */
-
+/*C-nav Afects header and footerI. */
 /*c-nav-apple used in phones.html*/
-
-/* .c-nav-apple [role="navigation"] {
-  text-transform: none;
-  max-height: 44px;
-} */
 
 .c-nav-apple [role="menuitem"] {
   text-transform: none;
+}
+
+.c-nav-main-apple {
+  width: 100%;
 }
 
 .c-nav-main-apple [role="menuitem"] {
@@ -172,10 +175,15 @@ Inser class in nav of headers. */
 }
 
 .c-nav-main-apple [role="menubar"] {
-  /* margin: 21px 75px 21px 0; */
-  margin: 0 !important;
+  margin: 0 -30px !important;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
+.c-toggle-apple {
+  margin: 18px 14px 33px 20px !important;
+}
 .c-nav-apple [role="menuitem"]:active,
 .c-nav-apple [role="menuitem"]:focus,
 .c-nav-apple [role="menuitem"]:hover {
@@ -187,9 +195,9 @@ Inser class in nav of headers. */
 
 .c-nav--main .btn--search {
   color: #f5f5f7;
-  position: absolute;
-  right: 40px;
-  top: 17px;
+  position: relative;
+  right: 0px;
+  top: 0px;
   opacity: 0.8;
 }
 
@@ -209,6 +217,9 @@ Inser class in nav of headers. */
 }
 
 /*end of cnav apple*/
+/*END OF PHONES------------------------------------------------------------------------------------------*/
+
+/* Enterprise */
 
 /* CLASS COPIED FROM BROWSER, IF TROUBLE DELETE */
 .c-nav [role="menuitem"]:active,
