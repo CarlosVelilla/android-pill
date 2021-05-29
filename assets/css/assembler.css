@@ -11,10 +11,9 @@ body {
 }
 
 .logo-android-pill {
-  margin: 0;
+  margin: 0 0 0 50px;
   padding: 0;
-  align-self: center;
-  width: 3rem;
+  width: 4rem;
 }
 
 .c-nav--main .btn--search:hover {
