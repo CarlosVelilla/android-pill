@@ -161,7 +161,49 @@ body {
   max-height: 44px;
 }
 
+.h1-header-hero {
+  font-size: 44px;
+  line-height: 1.09091;
+  font-weight: 600;
+  letter-spacing: -0.002em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.h2-header-hero {
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.p-hero {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+/*Buttons google hide*/
+.icon--circle-outer-hide {
+  display: none;
+}
+
+/*hide titles below phones*/
+
+.c-device__title-hide {
+  display: none !important;
+}
+
+.carousel-nomargin {
+  margin: 0;
+}
 /*Section below header*/
+
 .chapter-nav-phones {
   background-color: black;
   padding: 0;
@@ -303,6 +345,31 @@ body {
   justify-content: space-evenly;
 }
 
+.c-controls {
+  display: none;
+}
+.button-apple-phone,
+#button-Populares {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  min-width: 28px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 980px;
+  background: #0071e3;
+  color: #fff;
+  text-transform: none;
+}
 /*end of cnav apple*/
 /*END OF PHONES------------------------------------------------------------------------------------------*/
 

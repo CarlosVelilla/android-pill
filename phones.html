@@ -618,16 +618,16 @@
     <section class="l-section u-bg-gray-medium-gradient" id="section-hero" style="--component-position:80px;">
       <div class="o-container">
         <div class="l-section__intro">
-          <h1>Juntos.<br>Pero no iguales.</h1>
-          <p class="text-normal">Existe un Android perfecto para ti: tanto si buscas un teléfono resistente al agua,
+          <h1 class="h1-header-hero">Juntos.<br>Pero no iguales.</h1>
+          <p class="p-hero">Existe un Android perfecto para ti: tanto si buscas un teléfono resistente al agua,
             como con una batería de la máxima duración o con una cámara capaz de hacer fotos con poca luz.</p>
         </div>
       </div>
 
-      <div class="simple-carousel simple-carousel--phones" data-c-carousel-simple="" data-loop="true" data-columns="2"
-        data-center-desktop="false" data-columns-tablet="3" data-columns-desktop="4" data-columns-large-desktop="5"
-        data-c-carousel-analytics="" data-ca-category="hero-carousel" data-center-content="true" data-initial-index="1"
-        data-pan="true" aria-hidden="false">
+      <div class="simple-carousel simple-carousel--phones carousel-nomargin" data-c-carousel-simple="" data-loop="true"
+        data-columns="2" data-center-desktop="false" data-columns-tablet="3" data-columns-desktop="4"
+        data-columns-large-desktop="5" data-c-carousel-analytics="" data-ca-category="hero-carousel"
+        data-center-content="true" data-initial-index="1" data-pan="true" aria-hidden="false">
 
         <div class="simple-carousel__items tween-mode lazylayer-promotion" data-carousel-element="items"
           aria-labelledby="aria-default-carousel__title" aria-describedby="aria-default-carousel__description"
@@ -646,9 +646,9 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://www.android.com/intl/es_es/phones/sony-xperia-xz2/"
-                  data-g-event="hero-carousel" data-g-action="item-clicked" data-g-label="sony-xperia-xz2:text"
-                  draggable="false">
+                <a class="c-device__title c-device__title-hide"
+                  href="https://www.android.com/intl/es_es/phones/sony-xperia-xz2/" data-g-event="hero-carousel"
+                  data-g-action="item-clicked" data-g-label="sony-xperia-xz2:text" draggable="false">
                   Sony Xperia XZ2
                 </a>
               </div>
@@ -665,7 +665,7 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://www.android.com/intl/es_es/phones/lg-g5/"
+                <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/phones/lg-g5/"
                   data-g-event="hero-carousel" data-g-action="item-clicked" data-g-label="lg-g5:text" draggable="false">
                   LG G5
                 </a>
@@ -685,8 +685,8 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://store.google.com/es/product/pixel_3" target="_blank"
-                  rel="noopener" data-g-event="hero-carousel" data-g-action="item-clicked"
+                <a class="c-device__title c-device__title-hide" href="https://store.google.com/es/product/pixel_3"
+                  target="_blank" rel="noopener" data-g-event="hero-carousel" data-g-action="item-clicked"
                   data-g-label="google-pixel-3:text" draggable="false">
                   Google Pixel 3
                 </a>
@@ -707,7 +707,7 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://www.android.com/intl/es_es/phones/htc-10/"
+                <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/phones/htc-10/"
                   data-g-event="hero-carousel" data-g-action="item-clicked" data-g-label="htc-10:text"
                   draggable="false">
                   HTC 10
@@ -727,9 +727,9 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://www.android.com/intl/es_es/phones/samsung-galaxy-s7-edge/"
-                  data-g-event="hero-carousel" data-g-action="item-clicked" data-g-label="samsung-galaxy-s7-edge:text"
-                  draggable="false">
+                <a class="c-device__title c-device__title-hide"
+                  href="https://www.android.com/intl/es_es/phones/samsung-galaxy-s7-edge/" data-g-event="hero-carousel"
+                  data-g-action="item-clicked" data-g-label="samsung-galaxy-s7-edge:text" draggable="false">
                   Samsung Galaxy S7 Edge
                 </a>
               </div>
@@ -747,9 +747,9 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://www.android.com/intl/es_es/phones/samsung-galaxy-s8/"
-                  data-g-event="hero-carousel" data-g-action="item-clicked" data-g-label="samsung-galaxy-s8:text"
-                  draggable="false">
+                <a class="c-device__title c-device__title-hide"
+                  href="https://www.android.com/intl/es_es/phones/samsung-galaxy-s8/" data-g-event="hero-carousel"
+                  data-g-action="item-clicked" data-g-label="samsung-galaxy-s8:text" draggable="false">
                   Samsung Galaxy S8
                 </a>
               </div>
@@ -757,8 +757,8 @@
           </div>
         </div>
         <div class="c-controls  u-upto-desktop-is-hidden" data-carousel-element="controls">
-          <button class="c-controls__previous icon icon--svg icon--circle-outer" data-carousel-element="arrow-prev"
-            aria-hidden="false">
+          <button class="c-controls__previous icon icon--svg icon--circle-outer icon--circle-outer-hide"
+            data-carousel-element="arrow-prev" aria-hidden="false">
             <svg aria-hidden="false" aria-label="Mostrar diapositiva anterior" width="30" height="30"
               viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink" class="icon icon--svg">
@@ -769,8 +769,8 @@
 
           </button>
 
-          <button class="c-controls__next icon icon--svg icon--circle-outer" data-carousel-element="arrow-succ"
-            aria-hidden="false">
+          <button class="c-controls__next icon icon--svg icon--circle-outer icon--circle-outer-hide"
+            data-carousel-element="arrow-succ" aria-hidden="false">
             <svg aria-hidden="false" aria-label="Mostrar diapositiva siguiente" width="30" height="30"
               viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink" class="icon icon--svg">
@@ -790,8 +790,8 @@
     <section class="l-section u-tight-bottom u-bg-gray-light" id="section-os" style="--component-position:1042px;">
       <div class="o-container">
         <div class="l-section__intro">
-          <h2 class="text-large">Inteligente, práctico y siempre a tu disposición</h2>
-          <p class="text-normal">Con la inteligencia de Google integrada, Android te ofrece asistencia y datos prácticos
+          <h2 class="h2-header-hero">Inteligente, práctico y siempre a tu disposición</h2>
+          <p class="p-hero">Con la inteligencia de Google integrada, Android te ofrece asistencia y datos prácticos
             para ayudarte a hacer lo que te gusta.</p>
         </div>
         <div class="l-section l-section--text-and-media" data-c-tracking-section=""
@@ -805,13 +805,13 @@
             </div>
             <div class="grid__item push--desktop--one-twelfth desktop--four-twelfths tablet--one-whole">
               <div class="l-section__text l-section__text--offset-up">
-                <span class="icon--circle-outer">
+                <span class="icon--circle-outer icon--circle-outer-hide">
                   <img alt="" role="presentation" class="icon icon--product"
                     src="./original/phone_files/google-g_1x.png" height="32" width="32">
 
                 </span>
                 <h3 class="beta">Consigue el mejor asistente en tu móvil</h3>
-                <p class="text-normal">Google Now a un Toque se anticipa a tus necesidades en el momento. Consigue un
+                <p class="p-hero">Google Now a un Toque se anticipa a tus necesidades en el momento. Consigue un
                   acceso directo a lo que buscas con un solo toque y de forma instantánea.</p>
               </div>
             </div>
@@ -822,13 +822,13 @@
           <div class="grid grid--middle u-grid--override">
             <div class="grid__item push--desktop--one-twelfth desktop--four-twelfths tablet--one-whole">
               <div class="l-section__text l-section__text--offset-up">
-                <span class="icon--circle-outer">
+                <span class="icon--circle-outer icon--circle-outer-hide">
                   <img alt="" role="presentation" class="icon icon--product"
                     src="./original/phone_files/google-mic_1x.png" height="32" width="32">
 
                 </span>
                 <h3 class="beta">Solo tienes que hablar</h3>
-                <p class="text-normal">Utiliza la voz para realizar tareas. Di "Ok Google" para hacer una pregunta,
+                <p class="p-hero">Utiliza la voz para realizar tareas. Di "Ok Google" para hacer una pregunta,
                   enviar un mensaje de texto, añadir un recordatorio, obtener indicaciones o cualquier otra cosa que
                   necesites hacer.</p>
               </div>
@@ -852,13 +852,13 @@
             </div>
             <div class="grid__item push--desktop--one-twelfth desktop--four-twelfths tablet--one-whole">
               <div class="l-section__text l-section__text--offset-up">
-                <span class="icon--circle-outer">
+                <span class="icon--circle-outer icon--circle-outer-hide">
                   <img alt="" role="presentation" class="icon icon--product"
                     src="./original/phone_files/google-photos_1x.png" height="32" width="32">
 
                 </span>
                 <h3 class="beta">¿Te acuerdas de esa foto? Encuéntrala</h3>
-                <p class="text-normal">Google Fotos organiza tus fotos automáticamente por lugares, caras y por lo que
+                <p class="p-hero">Google Fotos organiza tus fotos automáticamente por lugares, caras y por lo que
                   aparece en ellas (sin necesidad de etiquetar).</p>
               </div>
             </div>
@@ -869,7 +869,7 @@
           <div class="grid grid--middle u-grid--override">
             <div class="grid__item push--desktop--one-twelfth desktop--four-twelfths tablet--one-whole">
               <div class="l-section__text l-section__text--offset-up">
-                <span class="icon--circle-outer">
+                <span class="icon--circle-outer icon--circle-outer-hide">
                   <svg aria-hidden="false" role="presentation" class="icon icon--svg icon--widgets" height="32"
                     viewBox="0 0 48 48" width="32" xmlns="http://www.w3.org/2000/svg" fill="#546e7a">
                     <path
@@ -880,7 +880,7 @@
 
                 </span>
                 <h3 class="beta">Elijas el modelo que elijas, tu Android es único</h3>
-                <p class="text-normal">Personaliza tu teléfono Android, desde la pantalla de inicio hasta el aspecto de
+                <p class="p-hero">Personaliza tu teléfono Android, desde la pantalla de inicio hasta el aspecto de
                   los iconos y el tamaño del teclado.</p>
               </div>
             </div>
@@ -904,7 +904,7 @@
         <div class="o-container">
           <div class="l-section__intro">
             <h2 class="text-large">Consigue aplicaciones</h2>
-            <p class="text-normal">Con más aplicaciones que iOS, tienes un mundo de posibilidades al alcance de <span
+            <p class="p-hero">Con más aplicaciones que iOS, tienes un mundo de posibilidades al alcance de <span
                 class="text-nowrap">la mano.</span></p>
             <h3 id="apps-carousel__title" class="u-is-hidden-visually">Apps Carousel</h3>
             <p id="apps-carousel__description" class="u-is-hidden-visually">Descubre una selección de aplicaciones de
@@ -917,17 +917,18 @@
 
           <ul class="apps-carousel__device-category" role="tablist" data-active-item="1">
             <li role="presentation" class="is-active">
-              <a data-carousel-device-category="carousel-apps-items-phones-popular" role="tab"
+              <a id="button-Populares" class="button-apple-phone "
+                data-carousel-device-category="carousel-apps-items-phones-popular" role="tab"
                 href="https://www.android.com/intl/es_es/phones/#" data-g-event="apps-carousel"
                 data-g-action="changed-category" data-g-label="popular" data-tab-index="0" aria-selected="true">
-                populares
+                Populares
               </a>
             </li>
             <li role="presentation">
-              <a data-carousel-device-category="carousel-apps-items-phones-featured" role="tab"
+              <a id="button-Populares" data-carousel-device-category="carousel-apps-items-phones-featured" role="tab"
                 href="https://www.android.com/intl/es_es/phones/#" data-g-event="apps-carousel"
                 data-g-action="changed-category" data-g-label="featured" data-tab-index="1" aria-selected="false">
-                destacadas
+                Destacadas
               </a>
             </li>
           </ul>
@@ -1351,8 +1352,8 @@
               </div>
             </div>
             <div class="c-controls  u-upto-desktop-is-hidden" data-carousel-element="controls">
-              <button class="c-controls__previous icon icon--svg icon--circle-outer" data-carousel-element="arrow-prev"
-                aria-hidden="false">
+              <button class="c-controls__previous icon icon--svg icon--circle-outer icon--circle-outer-hide"
+                data-carousel-element="arrow-prev" aria-hidden="false">
                 <svg aria-hidden="false" aria-label="Mostrar diapositiva anterior" width="30" height="30"
                   viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink" class="icon icon--svg">
@@ -1363,8 +1364,8 @@
 
               </button>
 
-              <button class="c-controls__next icon icon--svg icon--circle-outer" data-carousel-element="arrow-succ"
-                aria-hidden="false">
+              <button class="c-controls__next icon icon--svg icon--circle-outer icon--circle-outer-hide"
+                data-carousel-element="arrow-succ" aria-hidden="false">
                 <svg aria-hidden="false" aria-label="Mostrar diapositiva siguiente" width="30" height="30"
                   viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink" class="icon icon--svg">
@@ -2122,8 +2123,9 @@
 
 
       <div class="l-section l-section--tight u-tight-top u-text-align-center u-bg-gray-light u-bring-to-front">
-        <a href="https://play.google.com/store/apps" class="btn btn--text" target="_blank" data-g-event="apps-carousel"
-          data-g-action="browse-apps-cta" data-g-label="https://play.google.com/store/apps">Explorar todas las
+        <a href="https://play.google.com/store/apps" class="btn btn--text button-apple-phone " target="_blank"
+          data-g-event="apps-carousel" data-g-action="browse-apps-cta"
+          data-g-label="https://play.google.com/store/apps">Explorar todas las
           aplicaciones</a>
       </div>
 
@@ -2260,7 +2262,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/phones/sony-xperia-xz2/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/phones/sony-xperia-xz2/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="sony-xperia-xz2:text"
                     draggable="false">Sony Xperia XZ2</a>
                 </div>
@@ -2277,7 +2279,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/phones/lg-g5/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/phones/lg-g5/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="lg-g5:text"
                     draggable="false">LG G5</a>
                 </div>
@@ -2294,7 +2296,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://store.google.com/es/product/pixel_3" target="_blank"
+                  <a class="c-device__title c-device__title-hide" href="https://store.google.com/es/product/pixel_3" target="_blank"
                     rel="noopener" data-g-event="device-carousel" data-g-action="item-clicked"
                     data-g-label="google-pixel-3:text" draggable="false">Google Pixel 3</a>
                 </div>
@@ -2311,7 +2313,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/phones/htc-10/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/phones/htc-10/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="htc-10:text"
                     draggable="false">HTC 10</a>
                 </div>
@@ -2328,7 +2330,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/phones/samsung-galaxy-s7-edge/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/phones/samsung-galaxy-s7-edge/"
                     data-g-event="device-carousel" data-g-action="item-clicked"
                     data-g-label="samsung-galaxy-s7-edge:text" draggable="false">Samsung Galaxy S7 Edge</a>
                 </div>
@@ -2345,7 +2347,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/phones/samsung-galaxy-s8/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/phones/samsung-galaxy-s8/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="samsung-galaxy-s8:text"
                     draggable="false">Samsung Galaxy S8</a>
                 </div>
@@ -2362,7 +2364,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/phones/samsung-galaxy-s9/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/phones/samsung-galaxy-s9/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="samsung-galaxy-s9:text"
                     draggable="false">Samsung Galaxy S9 | S9+</a>
                 </div>
@@ -2386,7 +2388,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                  <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="moto-360-sport:text"
                     draggable="false">Moto 360 Sport</a>
                 </div>
@@ -2403,7 +2405,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                  <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="moto-360-for-women:text"
                     draggable="false">Moto 360 for Women</a>
                 </div>
@@ -2420,7 +2422,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                  <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="asus-zenwatch-2:text"
                     draggable="false">ASUS ZenWatch 2</a>
                 </div>
@@ -2437,7 +2439,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                  <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="lg-watch-urbane:text"
                     draggable="false">LG Watch Urbane</a>
                 </div>
@@ -2454,7 +2456,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                  <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="moto-360:text"
                     draggable="false">Moto 360</a>
                 </div>
@@ -2471,7 +2473,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                  <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="sony-smartwatch-3:text"
                     draggable="false">Sony SmartWatch 3</a>
                 </div>
@@ -2495,7 +2497,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/tablets/galaxy-tab-s2/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/tablets/galaxy-tab-s2/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="galaxy-tab-s2:text"
                     draggable="false">Samsung Galaxy Tab S2 8.0</a>
                 </div>
@@ -2512,7 +2514,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/tablets/sony-xperia-z4/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/tablets/sony-xperia-z4/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="sony-xperia-z4:text"
                     draggable="false">Tablet Sony Xperia Z4</a>
                 </div>
@@ -2536,7 +2538,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/tv/philips-oled/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/tv/philips-oled/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="philips-oled:text"
                     draggable="false">Philips OLED</a>
                 </div>
@@ -2553,7 +2555,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/tv/sharp-aquos/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/tv/sharp-aquos/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="sharp-aquos:text"
                     draggable="false">Sharp AQUOS</a>
                 </div>
@@ -2570,7 +2572,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/tv/sony-bravia/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/tv/sony-bravia/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="sony-bravia:text"
                     draggable="false">Sony BRAVIA</a>
                 </div>
@@ -2587,7 +2589,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/tv/nvidia-shield/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/tv/nvidia-shield/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="nvidia-shield:text"
                     draggable="false">NVIDIA SHIELD</a>
                 </div>
@@ -2611,7 +2613,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/aamp/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/aamp/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="aamp:text"
                     draggable="false">Aamp</a>
                 </div>
@@ -2628,7 +2630,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/abarth/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/abarth/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="abarth:text"
                     draggable="false">Abarth</a>
                 </div>
@@ -2645,7 +2647,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/acura/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/acura/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="acura:text"
                     draggable="false">Acura</a>
                 </div>
@@ -2662,7 +2664,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/alfa-romeo/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/alfa-romeo/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="alfa-romeo:text"
                     draggable="false">Alfa Romeo</a>
                 </div>
@@ -2679,7 +2681,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/alpine/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/alpine/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="alpine:text"
                     draggable="false">Alpine</a>
                 </div>
@@ -2696,7 +2698,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/astonmartin/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/astonmartin/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="astonmartin:text"
                     draggable="false">Aston Martin</a>
                 </div>
@@ -2713,7 +2715,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/audi/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/audi/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="audi:text"
                     draggable="false">Audi</a>
                 </div>
@@ -2730,7 +2732,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/axxera/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/axxera/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="axxera:text"
                     draggable="false">Axxera</a>
                 </div>
@@ -2747,7 +2749,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/bauhn/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/bauhn/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="bauhn:text"
                     draggable="false">Bauhn</a>
                 </div>
@@ -2764,7 +2766,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/bentley/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/bentley/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="bentley:text"
                     draggable="false">Bentley</a>
                 </div>
@@ -2781,7 +2783,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/borgward/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/borgward/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="borgward:text"
                     draggable="false">Borgward</a>
                 </div>
@@ -2798,7 +2800,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/boss-audio/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/boss-audio/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="boss-audio:text"
                     draggable="false">Boss Audio Systems</a>
                 </div>
@@ -2815,7 +2817,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/buick/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/buick/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="buick:text"
                     draggable="false">Buick</a>
                 </div>
@@ -2832,7 +2834,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/cadillac/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/cadillac/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="cadillac:text"
                     draggable="false">Cadillac</a>
                 </div>
@@ -2849,7 +2851,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/caska/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/caska/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="caska:text"
                     draggable="false">Caska</a>
                 </div>
@@ -2866,7 +2868,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/chevrolet/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/chevrolet/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="chevrolet:text"
                     draggable="false">Chevrolet</a>
                 </div>
@@ -2883,7 +2885,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/chrysler/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/chrysler/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="chrysler:text"
                     draggable="false">Chrysler</a>
                 </div>
@@ -2900,7 +2902,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/citroen/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/citroen/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="citroen:text"
                     draggable="false">Citroën</a>
                 </div>
@@ -2917,7 +2919,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/clarion/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/clarion/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="clarion:text"
                     draggable="false">Clarion</a>
                 </div>
@@ -2934,7 +2936,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/cvte/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/cvte/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="cvte:text"
                     draggable="false">CVTE</a>
                 </div>
@@ -2951,7 +2953,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/dacia/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/dacia/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="dacia:text"
                     draggable="false">Dacia</a>
                 </div>
@@ -2968,7 +2970,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/dodge/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/dodge/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="dodge:text"
                     draggable="false">Dodge</a>
                 </div>
@@ -2985,7 +2987,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/ds/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/ds/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="ds:text"
                     draggable="false">DS</a>
                 </div>
@@ -3002,7 +3004,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/dual/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/dual/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="dual:text"
                     draggable="false">Dual</a>
                 </div>
@@ -3019,7 +3021,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/evus/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/evus/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="evus:text"
                     draggable="false">Evus</a>
                 </div>
@@ -3036,7 +3038,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/fiat/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/fiat/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="fiat:text"
                     draggable="false">Fiat</a>
                 </div>
@@ -3053,7 +3055,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/ford/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/ford/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="ford:text"
                     draggable="false">Ford</a>
                 </div>
@@ -3070,7 +3072,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/furrion/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/furrion/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="furrion:text"
                     draggable="false">Furrion</a>
                 </div>
@@ -3087,7 +3089,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/genesis/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/genesis/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="genesis:text"
                     draggable="false">Genesis</a>
                 </div>
@@ -3104,7 +3106,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/gmc/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/gmc/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="gmc:text"
                     draggable="false">GMC</a>
                 </div>
@@ -3121,7 +3123,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/holden/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/holden/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="holden:text"
                     draggable="false">Holden</a>
                 </div>
@@ -3138,7 +3140,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/honda/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/honda/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="honda:text"
                     draggable="false">Honda</a>
                 </div>
@@ -3155,7 +3157,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/hyundai/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/hyundai/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="hyundai:text"
                     draggable="false">Hyundai</a>
                 </div>
@@ -3172,7 +3174,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/inav/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/inav/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="inav:text"
                     draggable="false">iNav</a>
                 </div>
@@ -3189,7 +3191,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/infiniti/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/infiniti/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="infiniti:text"
                     draggable="false">Infiniti</a>
                 </div>
@@ -3206,7 +3208,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/jaguar/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/jaguar/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="jaguar:text"
                     draggable="false">Jaguar</a>
                 </div>
@@ -3223,7 +3225,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/jbl/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/jbl/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="jbl:text"
                     draggable="false">JBL</a>
                 </div>
@@ -3240,7 +3242,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/jeep/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/jeep/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="jeep:text"
                     draggable="false">Jeep</a>
                 </div>
@@ -3257,7 +3259,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/jensen/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/jensen/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="jensen:text"
                     draggable="false">Jensen</a>
                 </div>
@@ -3274,7 +3276,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/karma/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/karma/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="karma:text"
                     draggable="false">Karma</a>
                 </div>
@@ -3291,7 +3293,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/kenwood/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/kenwood/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="kenwood:text"
                     draggable="false">Kenwood</a>
                 </div>
@@ -3308,7 +3310,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/kia/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/kia/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="kia:text"
                     draggable="false">Kia</a>
                 </div>
@@ -3325,7 +3327,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/koenigsegg/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/koenigsegg/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="koenigsegg:text"
                     draggable="false">Koenigsegg</a>
                 </div>
@@ -3342,7 +3344,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/lada/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/lada/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="lada:text"
                     draggable="false">Lada</a>
                 </div>
@@ -3359,7 +3361,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/lamborghini/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/lamborghini/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="lamborghini:text"
                     draggable="false">Lamborghini</a>
                 </div>
@@ -3376,7 +3378,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/land-rover/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/land-rover/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="land-rover:text"
                     draggable="false">Land Rover</a>
                 </div>
@@ -3393,7 +3395,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/lifan/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/lifan/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="lifan:text"
                     draggable="false">Lifan</a>
                 </div>
@@ -3410,7 +3412,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/lincoln/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/lincoln/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="lincoln:text"
                     draggable="false">Lincoln</a>
                 </div>
@@ -3427,7 +3429,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/macrom/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/macrom/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="macrom:text"
                     draggable="false">Macrom</a>
                 </div>
@@ -3444,7 +3446,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/mahindra/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/mahindra/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="mahindra:text"
                     draggable="false">Mahindra</a>
                 </div>
@@ -3461,7 +3463,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/maserati/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/maserati/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="maserati:text"
                     draggable="false">Maserati</a>
                 </div>
@@ -3478,7 +3480,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/mazda/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/mazda/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="mazda:text"
                     draggable="false">Mazda</a>
                 </div>
@@ -3495,7 +3497,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/mercedes-benz/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/mercedes-benz/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="mercedes-benz:text"
                     draggable="false">Mercedes-Benz</a>
                 </div>
@@ -3512,7 +3514,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/mitsubishi/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/mitsubishi/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="mitsubishi:text"
                     draggable="false">Mitsubishi</a>
                 </div>
@@ -3529,7 +3531,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/mmauto/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/mmauto/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="mmauto:text"
                     draggable="false">MMAUTO</a>
                 </div>
@@ -3546,7 +3548,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/mongoose/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/mongoose/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="mongoose:text"
                     draggable="false">Mongoose</a>
                 </div>
@@ -3563,7 +3565,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/nakamichi/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/nakamichi/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="nakamichi:text"
                     draggable="false">Nakamichi</a>
                 </div>
@@ -3580,7 +3582,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/nissan/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/nissan/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="nissan:text"
                     draggable="false">Nissan</a>
                 </div>
@@ -3597,7 +3599,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/norauto-sound/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/norauto-sound/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="norauto-sound:text"
                     draggable="false">Norauto Sound</a>
                 </div>
@@ -3614,7 +3616,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/opel/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/opel/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="opel:text"
                     draggable="false">Opel</a>
                 </div>
@@ -3631,7 +3633,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/peugeot/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/peugeot/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="peugeot:text"
                     draggable="false">Peugeot</a>
                 </div>
@@ -3648,7 +3650,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/pioneer/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/pioneer/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="pioneer:text"
                     draggable="false">Pioneer</a>
                 </div>
@@ -3665,7 +3667,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/planet-audio/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/planet-audio/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="planet-audio:text"
                     draggable="false">Planet Audio</a>
                 </div>
@@ -3682,7 +3684,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/prology/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/prology/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="prology:text"
                     draggable="false">Prology</a>
                 </div>
@@ -3699,7 +3701,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/ram/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/ram/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="ram:text"
                     draggable="false">RAM</a>
                 </div>
@@ -3716,7 +3718,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/renault/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/renault/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="renault:text"
                     draggable="false">Renault</a>
                 </div>
@@ -3733,7 +3735,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/renault-samsung/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/renault-samsung/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="renault-samsung:text"
                     draggable="false">Renault Samsung Motors</a>
                 </div>
@@ -3750,7 +3752,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/seat/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/seat/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="seat:text"
                     draggable="false">SEAT</a>
                 </div>
@@ -3767,7 +3769,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/skoda/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/skoda/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="skoda:text"
                     draggable="false">Škoda</a>
                 </div>
@@ -3784,7 +3786,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/skypine/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/skypine/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="skypine:text"
                     draggable="false">Skypine</a>
                 </div>
@@ -3801,7 +3803,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/smart/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/smart/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="smart:text"
                     draggable="false">smart</a>
                 </div>
@@ -3818,7 +3820,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/smartauto/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/smartauto/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="smartauto:text"
                     draggable="false">SmartAuto</a>
                 </div>
@@ -3835,7 +3837,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/ssangyong/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/ssangyong/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="ssangyong:text"
                     draggable="false">SsangYong</a>
                 </div>
@@ -3852,7 +3854,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/subaru/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/subaru/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="subaru:text"
                     draggable="false">Subaru</a>
                 </div>
@@ -3869,7 +3871,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/suzuki/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/suzuki/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="suzuki:text"
                     draggable="false">Suzuki</a>
                 </div>
@@ -3886,7 +3888,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/tata-motors/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/tata-motors/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="tata-motors:text"
                     draggable="false">Tata Motors</a>
                 </div>
@@ -3903,7 +3905,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/toyota/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/toyota/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="toyota:text"
                     draggable="false">Toyota</a>
                 </div>
@@ -3920,7 +3922,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/vauxhall/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/vauxhall/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="vauxhall:text"
                     draggable="false">Vauxhall</a>
                 </div>
@@ -3937,7 +3939,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/volkswagen/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/volkswagen/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="volkswagen:text"
                     draggable="false">Volkswagen</a>
                 </div>
@@ -3954,7 +3956,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/volvo/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/volvo/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="volvo:text"
                     draggable="false">Volvo</a>
                 </div>
@@ -3971,7 +3973,7 @@
                   </a>
                 </div>
                 <div class="c-device__details">
-                  <a class="c-device__title" href="https://www.android.com/intl/es_es/auto/zenec/"
+                  <a class="c-device__title c-device__title-hide" href="https://www.android.com/intl/es_es/auto/zenec/"
                     data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="zenec:text"
                     draggable="false">Zenec</a>
                 </div>
@@ -4001,7 +4003,7 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                   data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="moto-360-sport:text"
                   draggable="false">Moto 360 Sport</a>
               </div>
@@ -4020,7 +4022,7 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                   data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="moto-360-for-women:text"
                   draggable="false">Moto 360 for Women</a>
               </div>
@@ -4039,7 +4041,7 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                   data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="asus-zenwatch-2:text"
                   draggable="false">ASUS ZenWatch 2</a>
               </div>
@@ -4058,7 +4060,7 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                   data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="lg-watch-urbane:text"
                   draggable="false">LG Watch Urbane</a>
               </div>
@@ -4077,7 +4079,7 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                   data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="moto-360:text"
                   draggable="false">Moto 360</a>
               </div>
@@ -4096,7 +4098,7 @@
                 </a>
               </div>
               <div class="c-device__details">
-                <a class="c-device__title" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
+                <a class="c-device__title c-device__title-hide" href="https://wearos.google.com/intl/es_es/" target="_blank" rel="noopener"
                   data-g-event="device-carousel" data-g-action="item-clicked" data-g-label="sony-smartwatch-3:text"
                   draggable="false">Sony SmartWatch 3</a>
               </div>
