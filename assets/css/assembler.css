@@ -340,12 +340,62 @@ body {
   color: white;
 }
 
+
 .text-normal-dani {
   color: #a1a1a6;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 1.08349;
   font-weight: 600;
   letter-spacing: -0.003em;
+}
+
+.enter-subnav__nav {
+
+margin-right: 8rem;
+display: flex;
+
+}
+
+.enter-subnav .enter-subnav__nav-link:hover, .enter-subnav .enter-subnav__nav-link.is-active, .enter-subnav .enter-subnav__nav-link.open{
+
+  color: #1670e6;
+}
+
+
+.l-section .beta {
+  margin-bottom: 0;
+  max-width: 20em;
+  line-height: 1.28583;
+  font-weight: 600;
+  letter-spacing: .007em; 
+  font-size: 45px
+}
+  
+.c-nav [role="menuitem"].is-active {
+
+  color: #92989b;
+}
+
+
+.enter--home .section-hero .slide__text {
+    max-width: 20em;
+    font-size: 28px;
+    line-height: 1.28583;
+    font-weight: 600;
+    letter-spacing: .007em; }
+
+
+
+.enter-subnav{
+
+color: white;
+
+}
+
+.enter-subnav__brand__text {
+
+  margin-left: 17rem;
+  font-size: 25px;
 }
 
 .enter--home {
