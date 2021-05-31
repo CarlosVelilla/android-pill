@@ -2,6 +2,7 @@
 
 body {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  background-color: black;
 }
 
 .l-header {
@@ -212,11 +213,10 @@ body {
   text-align: center;
   height: 100px;
   z-index: 9987;
-  width: 100%;
   position: relative;
   overflow: hidden;
   display: block;
-  max-width: none;
+  max-width: 980px;
 }
 
 .container-apple {
@@ -289,10 +289,10 @@ body {
 }
 
 .c-nav-main-apple [role="menubar"] {
-  margin: 0 -30px !important;
+  margin: 0 auto !important;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  max-width: 980px;
 }
 
 .c-toggle-apple {
